@@ -45,7 +45,7 @@ nav .img--container{
 }
 
 nav .img--rounded {
-    background-image: url("../img/pcd.PNG");
+    background-image: url("../img/pcd.png");
     background-size: cover;
     border: 1px solid #eaeaea;
     border-radius: 50%;
