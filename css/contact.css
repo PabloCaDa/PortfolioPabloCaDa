@@ -1,0 +1,32 @@
+.row.contact{
+    width: 1019px;
+    height: 595.08px;
+    background-image: url("../img/postalv2.png");
+    background-size: 100%;
+    background-blend-mode: soft-light;
+    animation: showup 1s ease-out;
+    border-radius: 5px;
+
+}
+
+
+.contact--info{
+    margin-top:400px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.contact--info p{
+    border-bottom:1px solid #fff;
+    margin-right: 50px;
+}
+
+.contact--info p a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+
+

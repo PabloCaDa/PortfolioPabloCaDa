@@ -1,0 +1,137 @@
+body {
+
+    color: #b5b5b5;
+    font-size: 18px;
+    font-family: 'Julius Sans One', 'Arial', 'Helvetica', sans-serif;
+
+
+}
+
+header {
+    background-color: #f9f9f9;
+    border-bottom:1px solid #eaeaea;
+    padding: 20px 0px 0px 0px;
+
+
+}
+
+.container-fluid{
+    margin-left:150px;
+    margin-right:150px;
+    content:none;
+}
+
+.container-fluid:before{
+    content:none;
+}
+
+.container-fluid:after{
+    content:none;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+}
+
+nav .img--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .img--rounded {
+    background-image: url("../img/pcd.PNG");
+    background-size: cover;
+    border: 1px solid #eaeaea;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom:5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 500px;
+    margin:0px;
+    padding-left:50px;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    box-sizing: border-box;
+    border:1px hidden;
+    padding:10px 10px 3px 10px;
+
+}
+
+
+nav ul li a:link {
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    border-bottom:2px solid #1464ba;
+    box-sizing: content;
+    transition:border-bottom 0.2s ease-out;
+
+
+}
+
+.active{
+    text-decoration: none;
+    color:#fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgba(20, 100, 186,0.6);
+    box-sizing: content;
+    transition:background-color 0.8s ease-out;
+}
+
+.active a{
+    color:#fff;
+}
+
+#dashboard{
+
+    min-height: 300px;
+    background-color: #fff;
+    padding: 50px 15px 0px 15px;
+
+}
+
+.row{
+    margin:0px;
+}
+
+footer{
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+footer hr{
+    width: 600px;
+}
+
+footer ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width:300px;
+    padding:0px;
+}
+
+footer ul li a:visited{
+    color: #337ab7;
+}
