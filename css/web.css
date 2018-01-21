@@ -51,7 +51,7 @@
     width:82%;
     height: 82%;
     box-sizing: border-box;
-    border:3px solid #898888;
+    border:3px solid  rgba(20, 100, 186,0.8);
     box-shadow:1000px 1000px 1000px 2000px blur;
     transition: width .3s ease-out, border .3s ease-out;
 
