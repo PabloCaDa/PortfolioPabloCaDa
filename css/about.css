@@ -32,8 +32,10 @@
 
 .text--container{
     width:800px;
-    margin-left:50px;
+    margin-left:5%;
     animation:showup 2s ease-out;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
