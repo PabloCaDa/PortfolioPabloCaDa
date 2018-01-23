@@ -36,6 +36,12 @@
     animation:showup 2s ease-out;
     text-align: justify;
     text-justify: inter-word;
+
+}
+
+span{
+     color:#1464ba;
+    font-weight: 900;
 }
 
 
