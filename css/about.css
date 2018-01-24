@@ -36,6 +36,8 @@
     animation:showup 2s ease-out;
     text-align: justify;
     text-justify: inter-word;
+    font-family: 'Amiri','Arial','Helvetica', serif;
+    line-height: 2;
 
 }
 
