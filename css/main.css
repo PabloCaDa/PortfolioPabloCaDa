@@ -4,7 +4,7 @@ html{
 body {
 
     color: #b5b5b5;
-    font-size: 18px;
+    font-size: 2em;
     font-family: 'Julius Sans One', 'Arial', 'Helvetica', sans-serif;
 
 
@@ -18,26 +18,12 @@ header {
 
 }
 
-.container-fluid{
-    margin-left:150px;
-    margin-right:150px;
-    content:none;
-}
-
-.container-fluid:before{
-    content:none;
-}
-
-.container-fluid:after{
-    content:none;
-}
 
 nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 180px;
 }
 
 nav .img--container{
@@ -45,6 +31,7 @@ nav .img--container{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-bottom:2%;
 }
 
 nav .img--rounded {
@@ -54,16 +41,16 @@ nav .img--rounded {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-bottom:5px;
+    margin-bottom:5%;
 }
 
 nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    width: 500px;
+    width: 50%;
     margin:0px;
-    padding-left:50px;
+    padding-left:5%;
 
 
 }
@@ -114,16 +101,16 @@ nav ul li a:hover {
 }
 
 .row{
-    margin:0px;
+    margin:0%;
 }
 
 footer{
-    padding-bottom: 30px;
-    padding-top: 10px;
+    padding-bottom: 3%;
+    padding-top: 1%;
 }
 
 footer hr{
-    width: 600px;
+    width: 60vw;
 }
 
 footer ul{
@@ -131,7 +118,7 @@ footer ul{
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    width:300px;
+    width:20vw;
     padding:0px;
 }
 

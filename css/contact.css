@@ -1,7 +1,8 @@
 .row.contact{
     width: 100%;
-    height: 595.08px;
+    height: 100vh;
     background-image: url("../img/Postal_old.png");
+    background-repeat: no-repeat;
     background-size: 100%;
     background-blend-mode: soft-light;
     animation: showup 1s ease-out;
