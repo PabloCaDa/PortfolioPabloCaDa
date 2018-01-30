@@ -26,21 +26,21 @@
 
 <body>
     <header>
-       <div class="row">
-        <div class="burger-menu hidden-md hidden-lg hidden-xl">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-        </div>
-        </div>
         <nav class="container">
             <div class="img--container">
                 <div class="img--rounded"><a href="#"></a></div>
                 <small>Front-End Developer</small>
             </div>
-            <ul class="menu hidden-sm hidden-xs">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="menu col-xs-4 col-xs-offset-8 col-sm-12 col-sm-offset-0">
                 <li class="nav_web active"><a href="#">WEB</a></li>
                 <li class="nav_about"><a href="#">ABOUT ME</a></li>
                 <li class="nav_contact"><a href="#">CONTACT</a></li>
             </ul>
+            </div>
 
         </nav>
 
