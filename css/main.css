@@ -57,6 +57,17 @@ nav .img--rounded {
     .collapse.navbar-collapse{
     width:70%;
 }
+    nav ul{
+        margin-left:100px;
+    }
+}
+
+@media (min-width:768px){
+    .collapse.navbar-collapse{
+    width:70%;
+    margin-left:60px;
+}
+
 }
 
 
@@ -110,7 +121,6 @@ nav ul li a:hover {
 
 #dashboard{
 
-    min-height: 300px;
     background-color: #fff;
     padding: 50px 15px 0px 15px;
 

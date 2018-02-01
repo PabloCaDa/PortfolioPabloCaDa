@@ -1,6 +1,6 @@
 .row.contact{
     width: 100%;
-    height: 100vh;
+    height: 30vh;
     background-image: url("../img/Postal_old.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -12,21 +12,58 @@
 
 
 .contact--info{
-    margin-top:400px;
+    margin-top:25%;
     text-align: center;
     color: #fff;
+    text-align:center;
 
 }
 
 .contact--info p{
     border-bottom:1px solid #fff;
     margin-right: 50px;
+    font-size:5px;
+    text-align: center;
 }
 
 .contact--info p a{
     text-decoration: none;
     color:#fff;
 }
+
+@media (min-width:768px){
+    .contact--info p{
+        font-size:14px;
+    }
+
+    .row.contact{
+        height: 50vh;
+    }
+}
+
+@media (min-width:1024px) & (max-width:1024px){
+    .row.contact{
+        height: 100vh;
+    }
+
+}
+
+@media (min-width:1170px){
+    .row.contact{
+        height: 80vh;
+
+    }
+
+    .contact--info p{
+        font-size:14px;
+    }
+
+    .contact--info{
+       margin-top:400px;
+    }
+
+}
+
 
 
 
