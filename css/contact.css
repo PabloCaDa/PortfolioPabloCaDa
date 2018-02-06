@@ -21,7 +21,6 @@
 
 .contact--info p{
     border-bottom:1px solid #fff;
-    margin-right: 50px;
     font-size:5px;
     text-align: center;
 }
@@ -34,6 +33,7 @@
 @media (min-width:768px){
     .contact--info p{
         font-size:14px;
+        margin-right:50px;
     }
 
     .row.contact{
@@ -46,6 +46,10 @@
         height: 100vh;
     }
 
+    .contact--info p{
+        margin-right:50px;
+    }
+
 }
 
 @media (min-width:1170px){
@@ -56,6 +60,7 @@
 
     .contact--info p{
         font-size:14px;
+        margin-right:50px;
     }
 
     .contact--info{
