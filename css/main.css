@@ -17,12 +17,6 @@ header {
 
 }
 
-.burger-menu{
-    background:#000;
-    color:#fff;
-}
-
-
 nav {
     display: flex;
     flex-direction: column;
@@ -47,37 +41,23 @@ nav .img--rounded {
     height: 100px;
     margin-bottom:5%;
 }
-
-.collapse.navbar-collapse{
-    width:50%;
-    margin-left:8%;
+.menu{
+    margin:0px auto;
 }
-
-@media (max-width:768px){
-    .collapse.navbar-collapse{
-    width:70%;
+.navbar-collapse{
+    width:60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
-    nav ul{
-        margin-left:100px;
-    }
-}
-
-@media (min-width:768px){
-    .collapse.navbar-collapse{
-    width:70%;
-    margin-left:60px;
-}
-
-}
-
-
 
 nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     width: 100%;
     margin:0px;
+    text-align: center;
 
 
 }
@@ -150,58 +130,3 @@ footer ul{
 
 }
 
-@media (max-width:480px){
-    body{
-        font-size: 1em
-    }
-    .collapse.navbar-collapse{
-    width:100%;
-}
-    header{
-        padding:10px 0px 0px 0px;
-    }
-
-    nav{
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap:wrap;
-    }
-
-    nav .img--rounded{
-    width: 50px;
-    height: 50px;
-    margin:0px 0px 5px 0px;
-    }
-
-    nav .img--container{
-        flex-direction: row;
-        margin:0px;
-    }
-
-    nav ul{
-        flex-direction: column;
-        text-align:right;
-    }
-
-    nav .menu.col-xs-4.col-xs-offset-8{
-        padding:0px;
-    }
-
-    .navbar-toggle{
-        margin:0px;
-        margin-left:40%;
-
-    }
-    nav ul li{
-        margin-bottom:5px;
-    }
-
-    nav ul li a:hover {
-    transition:none;
-    border:none;
-    box-sizing: content;
-
-
-}
-
-}
